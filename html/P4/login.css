@@ -1,0 +1,111 @@
+.login{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    margin-left: 615px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.noidung{
+    width: 270px;
+    height: 250px;
+    position: relative;
+    background-color:white;
+    margin: auto;
+    border:solid 1px red;
+}
+.noidung .layer1{
+    position:absolute;
+    top: -5px;
+    left: 0px;
+    z-index: 1;
+
+    display: block;
+    width: 45px;
+    height: 45px;
+    background:#9a3d77;
+    transform: rotate(45deg);
+    border-radius: 30px;
+    margin-top:30px ;
+    margin-left: 110px;
+  
+}
+.noidung .layer2{
+    position:absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 2;
+    font-family: 'Roboto', sans-serif;
+    color:#9a3d77;
+    font-size: 13px;
+}
+.noidung .layer3{
+    width: 210px;
+    height: 25px;
+    display: block;
+
+    position:absolute;
+    top: 110px;
+    left: 30px;
+    z-index: 3;
+    background-color:#80808021;
+}
+.noidung .layer3 .username{
+    color:#80808078;
+    margin-left: 10px;
+    padding-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.noidung .layer4{
+    width: 210px;
+    height: 25px;
+    display: block;
+
+    position:absolute;
+    top: 145px;
+    left: 30px;
+    z-index: 4;
+    background-color: #80808021;
+}
+.noidung .layer4 .password{
+    color:#80808078;
+    margin-left: 10px;
+    padding-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.noidung .layer5{
+    width:212px ;
+    height: 40px;
+    display: block;
+    
+    position:absolute;
+    top: 185px;
+    left: 30px;
+    z-index: 5; 
+    color: #9a3d77;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.layer5 .trai{
+    float: right;
+}
+.noidung .layer6{
+    width: 100px;
+    height: 30px;
+    display: block;
+    position:absolute;
+    top: 236px;
+    left: 90px;
+    z-index: 6;
+    background-color:#9a3d77;
+}
+.noidung .layer6 .get{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-left: 18px;
+    padding-top: 8px;
+    color: white;
+}
+
+

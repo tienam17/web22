@@ -1,0 +1,55 @@
+.tdto {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    border-left: 5px solid blue;
+    padding-left: 6px; 
+    color: blue;
+} 
+.trai {
+    width: 340px;
+    height: 400px;
+    float: left; 
+    border: 1px solid red;
+}
+.trai img {
+    width: 340px;
+}
+.trai a.tdtrai{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    line-height: 20px;
+} 
+.trai p{
+    font-family: tahoma;
+    font-size: 15px;
+    color: blue;
+    padding: 0 15px;
+}
+.phai{
+    width: 360px;
+    margin-left: 0 15px;
+    float: left;
+    border: 1px solid greenyellow;
+    margin-left: 25px;
+}
+.mottin{
+    width: 160px;
+    height: 200px;
+    float: left;
+    margin-right: 14px;
+}
+.mottin img{
+    width:160px ;
+}
+a.tdphai{
+    text-decoration: none;
+    color: black;
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: bold;
+}

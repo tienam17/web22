@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 1120px;
+}
+a.khoivuongnho{
+    width: 280px;
+    height: 210px;
+    background-color:green;
+    display: block;
+    position: relative;
+
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: tahoma;
+    float: left;
+    margin-bottom: 5px;
+    
+}
+a.khoivuongnho.tohon{
+    width: 560px;
+    height: 420px;
+}
+a.khoivuongnho .layer1{
+    width: 280px;
+}
+a.khoivuongnho.tohon .layer1{
+    width: 560px;
+}
+
+a.khoivuongnho .layer2{
+    width: 280px;
+    height: 210px;
+
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    background-image:-webkit-linear-gradient(top,wite,black);
+    transition: 0.4s;
+}
+a.khoivuongnho .layer2 :hover{
+    opacity: 0;
+}
+a.khoivuongnho .layer3{
+    width: 280px;
+    padding: 8px 13px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 3;
+    transition: 0.4s;
+}
+
+a.khoivuongnho:hover .layer3{
+    bottom: 10px;
+}
+

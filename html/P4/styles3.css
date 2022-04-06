@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.bo{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.bo .layer1{
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px; 
+    transition: 2.5s;
+}
+.bo .layer2{
+    position: absolute;
+    z-index: 2;
+    top:50%;
+    left: 50%;
+
+    font-size: 40px;
+    font-family: segoe ui light;
+    color: black;
+    text-align: center;
+    width: 700px;
+    height: 100px;
+    margin-left: -350px;
+}
+.bo:hover .layer1{
+    transform: scale(3)
+}

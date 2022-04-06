@@ -1,0 +1,33 @@
+.Tiin{
+    width: 620px; 
+    height: 220px;
+}
+div{
+    margin: 0%;
+    font-family: tahoma;
+    font-size: 13px;
+    line-height: 13px;
+    margin: 11px;
+
+}
+img{
+    width: 325px;
+    float:left;
+    margin-right: 20px;
+}
+a.linkkhac{
+    display: block;
+    text-decoration-line: none;
+    font-family: tahoma;
+    font-size: 13px;
+    padding-bottom: 10px;
+    background-image: url(icon.jpg);
+    background-repeat: no-repeat;
+    background-position: 341px top;
+    padding-left: 350px; 
+} 
+a.tieude{
+    font-family: tahoma;
+    font-size: 15px;
+    color: aqua;
+}

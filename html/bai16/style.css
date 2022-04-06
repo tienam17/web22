@@ -1,0 +1,15 @@
+.tintrai{
+    width:210px;
+    height: 320px;
+    background-image: url(./anh7.jpg);
+    /* padding-left: 200px; */
+} 
+.tintrai .tdtt {
+    text-decoration: none;
+    color:wheat;
+    background-color: #0000009c;
+    /* padding: 10px; */
+    display:block;
+    padding-top: 100px;
+    
+} 

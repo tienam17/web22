@@ -1,0 +1,19 @@
+div{
+    width: 165px;
+    height: 185px; 
+    margin-right: 20px;
+    float: left;
+} 
+img{
+    width: 165px;
+}  
+article{
+    width: 370px;
+    text-align-last: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: tahoma;
+    font-size: 15px;
+}

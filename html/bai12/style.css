@@ -1,0 +1,39 @@
+div.tinnho{
+    width: 325px;
+    height: 265px;
+    padding-right: 22px;
+    border: royalblue; 
+    float: left;
+} 
+div.tinho img{
+    width: 100%; 
+    padding-bottom: 30px; 
+} 
+img{
+    width: 320px;
+}
+div.tinnho a.checkin {
+    text-decoration: none;
+    color: red;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+div.tinto{
+    width: 650px;
+    height: 441px;
+    overflow: hidden;
+} 
+div.tinto img{
+    width: 441px; 
+    float: left;
+    margin-right: 22px;
+}
+div.tinto a.checkin{ 
+    text-emphasis: none;
+    font-family: tahoma;
+    margin-bottom: 40px;
+    color: black;
+    font-weight: bold;
+}

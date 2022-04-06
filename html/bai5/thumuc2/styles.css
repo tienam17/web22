@@ -1,0 +1,22 @@
+article {
+    width:340px;
+    height: 320px;
+    background-image: url;
+    border: 1px solid red;
+}
+img{
+    width:340px;
+}
+a{
+    text-decoration:none ;
+    font-family: arial; 
+    font-size: 19px;
+    color :red;
+}
+p{
+    margin: 0; 
+    padding-top: 11px; 
+    color: seagreen;
+} 
+
+    

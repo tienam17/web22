@@ -1,0 +1,40 @@
+
+.tren{
+    width: 445px;
+    height: 360px;
+    border: 2px solid red;
+}
+.tren img{
+    width: 445px;
+} 
+.tdtren{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: tahoma;
+    font-size: 12px;
+    color: black; 
+    
+} 
+.tren p{
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: tahoma;
+
+}
+.con{
+    width: 140px;
+    height: 145px;
+    float: left;
+    margin-right: 10px; 
+    /* border: 1px solid red ; */
+}
+.duoi{
+    width: 450px;
+    margin: 10px;
+}
+.con .tdcon{
+    text-decoration: none;
+    color: black;
+    font-family: tahoma;
+    font-size: 11px; 
+}

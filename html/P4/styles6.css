@@ -1,0 +1,26 @@
+.bo{
+    width: 920px;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.slide .layer1{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 1;
+}
+.slide .layer2{
+    position: absolute;
+    bottom: 360px;
+    left: 0px;
+    z-index: 2;
+    color: white;
+    padding: 20px;
+}
+img .duoi{
+    width: 30px;
+}
+.tren{
+    width: 920px;
+}

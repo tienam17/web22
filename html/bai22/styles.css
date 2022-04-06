@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tren{
+    width: 700px;
+    height: 40px;
+    border-top: 3px solid gray;
+    padding-top: 13px;
+    margin:auto;
+    margin-top:100px;
+
+}
+a.xt{
+    float :right;
+    margin-top: -20px;
+    text-decoration: none;
+    color: gray;
+    font-family: tahoma;
+    font-size: 12px;
+    font-style:italic;
+   
+}
+
+a.tdto{
+    text-align:center ;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:tahoma ;
+    font-weight: bold;
+    font-size:16px; 
+    color:hotpink 
+   
+}
+a.xt:hover{
+    color: lightblue;
+} 
+.icon{
+    width: 700px;
+    height: 900px;
+    text-align:center ;
+    margin: auto;
+
+}
+._1icon{
+    width: 50px;
+    height: 70px; 
+    display:inline-block;
+}
+._1icon a.chuaicon{
+    width: 50px;
+    height: 50px;
+    display:inline-block ;
+    background-image:url(./anh4.jpg) ;
+    background-position:59px -422px ;
+} 
+._1icon a.chuaicon:hover{
+    background-position: 59px -511px;
+}
+.linkicon{
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 11px;
+    color: gray;
+} 
+

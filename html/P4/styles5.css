@@ -1,0 +1,46 @@
+
+.tren {
+    position: relative;
+    width: 360px;
+    height: 200px;
+}
+
+.tren .layer1{
+  width: 360px;
+ 
+}
+.tren .layer2{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: blue;
+    color: white;
+    padding: 3px 6px;
+}
+.tren .layer3{
+    position:absolute;
+    bottom: -12px;
+    left: 10px;
+    z-index: 2;
+
+    display: block;
+    width:20px;
+    height:20px;
+    background: white;
+    
+    transform: rotate(45deg);
+}
+.giua{
+    width: 360px;
+    font-family: tahoma;
+    font-size: 25px;
+    color: black;
+    margin-top: 18px;
+}
+.duoi{
+    width: 360px;
+    font-family: tahoma;
+    color:gray;
+    margin-top: 10px;
+}
