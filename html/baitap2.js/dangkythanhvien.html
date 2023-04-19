@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .ip{
+            width: 100%;
+            font-size: 18px;
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 9px;
+        }
+        .khung{
+            width:100%;
+            font-size: 18px;
+            padding: 5px; 
+            border: 2px solid black;
+            border-radius: 9px;
+            
+        }
+        select{
+            width:100%;
+            font-size: 18px;
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 9px;
+        }
+        textarea{
+            width: 100%;
+            border: 2px solid black;
+            border-radius: 9px;
+            font-size: 18px;
+        }
+        .dk{
+            font-size: 18px;
+            background-color: slategray;
+            width: 150px;
+            height: 50px;
+            border-radius: 25px;
+            color: white;
+        }
+        .dk:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align:center ; font-size: 30px;" ><b>ĐĂNG KÝ THÀNH VIÊN</b></h3>
+    <form action="Register" method="post" enctype="multipart/form-data">
+        
+            <label for="">Mã sinh viên: </label><br>
+            <input required cla id="masv" class="ip" name="id" type="number"><br>
+
+         <label for="">Họ và tên:</label><br>
+         <input required id="hoten" class="ip" name="hoten" type="text"><br>
+
+         <label for="">Email:</label> <br>
+         <input required id="mail" class="ip" type="email" name="email" id=""><br>
+         
+         <label for="">Giới tính:</label> <br>
+         <div class="khung" id="bggt">
+         <input  type="radio" name="gt" id="nam" value="Nam">Nam
+         <input  type="radio" name="gt" id="nu" value="Nữ">Nữ
+        </div>
+
+         <label for="">Sở thích:</label><br>
+         <div class="khung" id="bgst">
+         <input type="checkbox" id="sothich" name="ds" value="Đọc sách">Đọc sách
+         <input type="checkbox" id="sothich" name="dl" value="Du lịch">Du lịch
+         <input type="checkbox" id="sothich" name="an" value="Âm nhạc">Âm nhạc
+         <input type="checkbox" id="sothich" name="at" value="Ẩm thực">Ẩm thực
+         <input type="checkbox" id="sothich" name="k" value="Khác">Khác
+        </div>
+
+        <label for="">Quốc tịch:</label><br>
+        <select id="quoctich"  name="quoctich">
+            <option value="">Chọn quốc tịch</option>
+            <option value="vietnam">Việt Nam</option>
+            <option value="lao">Lào</option>
+            <option value="thailan">Thái Lan</option>
+            <option value="campuchia">Campuchia</option>
+            <option value="trungquoc">Trung Quốc</option>
+            <option value="hanquoc">Hàn Quốc</option>
+            <option value="nhatban">Nhật Bản</option>
+        </select><br>
+
+        <label for="">Ghi chú:</label><br>
+        <textarea name="ghichu" id="ghichu" cols="20" rows="5" maxlength="300"></textarea><br>
+
+        <button onclick="sub()" class="dk" type="submit">Đăng ký</button>
+    </form>
+    <script>
+       
+       function sub() {
+        var id=document.getElementById("masv").value;
+        if (id=="") {
+            alert("Vui lòng nhập Mã sinh viên");
+            document.getElementById("masv").style.backgroundColor="yellow";
+            return false;
+        } else{
+            document.getElementById("masv").style.backgroundColor="#fff";
+        }
+       
+        var name=document.getElementById("hoten").value;
+        if (name=="") {
+            alert("Vui lòng nhập Họ tên");
+            document.getElementById("hoten").style.backgroundColor="yellow";
+            return false;
+        } else{
+            document.getElementById("hoten").style.backgroundColor="#fff";
+        }
+        var Email=document.getElementById("mail").value;
+        if (Email=="" ) {
+            alert("Vui lòng nhập Email");
+            document.getElementById("mail").style.backgroundColor="yellow";
+            return false;
+        } else{
+            document.getElementById("mail").style.backgroundColor="#fff";
+        }
+
+         //emal đúng định dạng
+        var email= new RegExp(/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/);
+        // if (!email) {
+        //     alert("Vui lòng nhập lại Email");
+        //     document.getElementById("masv").className="loi";
+        //     return false;
+        // } else{
+        //     document.getElementById("masv").className="ip";
+        // }
+       //giới tính, sở thích, quốc tịch phải được chọn
+      var nam=document.getElementById("nam");
+      var nu=document.getElementById("nu");
+      if (nam.checked ||nu.checked) {
+        
+      } else {
+        alert("Vui lòng chọn giới tính");
+        document.getElementById(bggt).style.backgroundColor="yellow";
+        return false;
+      }
+        var sothich= document.getElementById("sothich");
+        for(var i=0;i<sothich.length;i++){
+            if(sothich[i].checked){
+            
+            }else{
+                alert("Vui lòng chọn sở thích");
+                document.getElementById(bgst).style.backgroundColor="yellow";
+                return false;
+            }
+           
+        }
+    //   var DS=document.getElementsByName("ds").value;
+    //   var DL=document.getElementsByName("dl").value;
+    //   var AN=document.getElementsByName("an").value;
+    //   var AT=document.getElementsByName("at").value;
+    //   var K=document.getElementsByName("k").value;
+    //   if (DS.checked ||DL.checked ||AN.checked ||AT.checked ||K.checked) {
+        
+    //   } else {
+    //     alert("Vui lòng chọn sở thích");
+    //     return false;
+    //   }
+        var quoctich=document.getElementById("quoctich").value;
+        if (quoctich=="") {
+            alert("Vui lòng chọn Quốc tịch");
+            return false;
+        }
+    return true;
+
+}
+    </script>
+</body>
+</html>

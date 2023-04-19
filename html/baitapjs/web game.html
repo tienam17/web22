@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let abc =so_bi_mat=Math.round(Math.random()*100);
+        let guessNum 
+        
+        do {
+            guessNum= Number (prompt('Nhap so du doan'))
+
+            if(guessNum ==abc){
+                alert('Ban da doan trung')
+
+            } else if(guessNum>abc){
+                alert('So du doan lon hon so bi mat')
+            }
+            else{
+                alert('So du doan be hon so bi mat')
+            }
+        }
+        while(abc!=guessNum)
+    </script>
+</body>
+</html>

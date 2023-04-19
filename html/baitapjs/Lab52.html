@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>DANH MỤC HÀNG HÓA</h3>
+    <table border="1">
+        <tr>
+            <td>iPhone 9</td>
+            <td>$2700</td>
+            <td><button>Thêm </button></td>
+        </tr>
+        <tr>
+            <td>iPhone 10</td>
+            <td>$3000</td>
+            <td><button>Thêm </button></td>
+        </tr>
+        <tr>
+            <td>iPhone 11</td>
+            <td>$3500/td>
+            <td><button>Thêm </button></td>
+        </tr>
+
+    </table>
+
+    <h3>GIO HÀNG CỦA BẠN</h3>
+    <table border="1" id=" cart"> </table>
+
+   <h3>TỔNG SỐ TIỀN :$<span id ="tong">0</span></h3>
+
+   <script>
+    function them(button){
+        <button onclick='them(this)'> Thêm </button>
+        var row = button.parenElement.parenElement.cloneNode(true);
+        var btnXoa =row.getElementsByTagName("button")[0];
+        btnXoa.interText="Xoá"
+        btnXoa.setAtribute ('onclick', xoa (this));
+        document.getElementById("cart").appendChild(row);
+        tinhTong();
+
+    }
+    function xoa (button){
+        var row = button.parenElement.parenElement;
+        document.getElementById("cart").removeChild(row);
+        tongTien();
+
+    }
+    functiontinhTong(){
+        var cart =document.getElementById("cart")
+        var rows 
+    }
+   </script>
+</body>
+</html>

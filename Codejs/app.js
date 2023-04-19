@@ -1,11 +1,11 @@
 // Sync :Dong bo 
 // Async :Bat dong bo 
 
-// setTimeout(function(){
-//     console.log(1);
-// }, 1000);
+setTimeout(function(){
+    console.log(1);
+}, 1000);
 
-// console.log(2);
+console.log(2);
 
 function choigame (){
    console.log('dang choi game\n');
@@ -16,11 +16,6 @@ function hocBai (callback){
         console.log('dang hoc bai\n');
         callback();
     },2000);
-    
-}
-
-function tong(a,b){
-    return a+b
 }
 
 hocBai(choigame);
