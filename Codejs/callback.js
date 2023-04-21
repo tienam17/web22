@@ -117,16 +117,13 @@ home()
 // - Map
 // - forEach 
 // - some 
-// - include         
+// - include  ------>XONG       
 
 //object
 // - hasOwnProperty
 // - delete         -------> xong 
 
 //ES6
-
-
-
 
 
 //1. Tim so lon nhat trong mang

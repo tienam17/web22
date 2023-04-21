@@ -6,7 +6,7 @@
 // console.log(a);
 
 // let c=a%b
-
+ 
 // console.log(c); 
 
 // let a=8;
@@ -48,13 +48,3 @@ console.log(result);
 var result ='A'||'B'||'C'
 console.log(result);
 
-
-
-
-// let tongHaiSo =(a,b) =>{
-//     return a+b 
-
-// }
-
-// let c=tongHaiSo(3,4);
-// console.log(c)
